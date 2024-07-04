@@ -1,0 +1,10 @@
+﻿global using Core.Common.Dtos;
+global using Core.Common.Dtos.CommonDtos;
+global using Core.Common.Entities;
+global using Core.Common.Interfaces.IRepositories;
+global using Infrastructure.Data;
+global using Infrastructure.Helpers;
+global using Infrastructure.Repositories;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.DependencyInjection;
+global using System.Data;

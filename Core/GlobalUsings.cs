@@ -1,0 +1,15 @@
+﻿global using AutoMapper;
+global using Core.Commands.PriceListCommands;
+global using Core.Commands.PriceListItemCommands;
+global using Core.Common.Dtos.CommonDtos;
+global using Core.Common.Dtos.PriceLIstDtos;
+global using Core.Common.Dtos.PriceLIstItemDtos;
+global using Core.Common.Entities;
+global using Core.Common.Exceptions;
+global using Core.Common.Interfaces.IRepositories;
+global using Core.Queries.PriceListItemQueries;
+global using Core.Queries.PriceListQueries;
+global using MediatR;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.DependencyInjection;
+global using System.Text.Json;
